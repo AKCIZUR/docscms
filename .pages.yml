@@ -1,0 +1,35 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: docs
+    label: Docs
+
+    path: content/docs
+
+    type: collection
+
+    subfolders: true
+
+    filename: "{primary}.mdx"
+
+    view:
+      fields:
+        - title
+        - description
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: description
+        label: Description
+        type: string
+
+      - name: body
+        label: Content
+        type: code
+        language: mdx
