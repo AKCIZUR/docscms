@@ -6,7 +6,7 @@ content:
   - name: docs
     label: Docs
 
-    path: docs
+    path: content/docs
 
     type: collection
 
