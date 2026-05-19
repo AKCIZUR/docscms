@@ -3,7 +3,7 @@ media:
   output: /images
 
 content:
-  - name: docs
+  - name: docsCMS
     label: Docs
 
     path: docs
