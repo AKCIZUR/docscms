@@ -5,10 +5,19 @@ media:
 content:
   - name: docs
     label: Docs
-    path: content/docs
+
+    path: docs
+
     type: collection
 
+    subfolders: true
+
     filename: "{primary}.mdx"
+
+    view:
+      fields:
+        - title
+        - description
 
     fields:
       - name: title
