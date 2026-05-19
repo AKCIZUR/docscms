@@ -1,0 +1,26 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: docs
+    label: Docs
+    path: content/docs
+    type: collection
+
+    filename: "{primary}.mdx"
+
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: description
+        label: Description
+        type: string
+
+      - name: body
+        label: Content
+        type: code
+        language: mdx
